@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgray;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    background-color: cornflowerblue;
+}
+
+article {
+    padding: 50px;
+}
+
+.stripe {
+    height: 25vh;
+}
+
+.stripe-1 {
+    background-color: cornflowerblue;
+}
+
+.stripe-2 {
+    background-color: turquoise;
+}
+
+.stripe-3 {
+    background-color: rgb(202, 229, 160);
+}
+
+.stripe-4 {
+    background-color: rgb(241, 230, 111);
+}
+
+.question-container {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.question-container button {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 24pt;
+}
